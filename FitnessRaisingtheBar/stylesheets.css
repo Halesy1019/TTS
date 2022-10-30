@@ -1,0 +1,135 @@
+body {background-color: #OOffOO;}
+#p1  {background-color: #ffOOOO;}
+/* Add Font */
+.google-font-text, h1 {
+    font-family: 'Proza Libre', sans-serif;
+}
+/* ADD LIST DROPDOWN MENU */
+/*=====CSS for Dropdown Menus=====*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(247, 244, 244);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0088ce;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* change size of image class */
+.small {
+    max-width: 25px;
+    
+}
+
+#ListTitleDescription {
+    font-family: 'Shalimar', cursive;
+    font-size: larger;
+
+}
+    /* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+#bulkwarning{
+    color: blue;
+}
+
+.orange {
+    text-align: left;
+    color: orange;
+}
+
+div {
+    background-color: pink;
+    animation-name: backgroundchange;
+    animation-duration: 4s;
+}
+@keyframes backgroundchange {
+    from {
+        background-color: pink;
+
+    }
+    to {
+        background-color: yellow;
+    }
+    
+}
+
+h1 {
+    text-shadow: 2px 2px;
+}
+
+/* target all <p> tags within a <div> and make the text red */
+div p {
+    color: red;
+}
+
+/* target all <div> and <p> tags on the page and make their text blue */
+div, p {
+    color: blue;
+}
+
+/* target all <h2> tags on the page and make their text green*/
+div h2 {
+    color: green
+}
+body {background-color:#f8fbfb;}
+#p1 {background-color:#ff0000;}
+
