@@ -1,8 +1,11 @@
-for (let bottle = 99; bottle >= 0; bottle --){
-
-    if (bottle === 0) {
-      console.log("Hey! Go buy more root beer!");
-    } else {
-        console.log(bottle + " bottles of root beer on the wall");
-    }
+for (var x=0; x<=99; x++) {
+  if (x===0) {
+    console.log(x + "is even");
   }
+  else if (x %2 === 0) {
+    console.log(x + "is even");
+  }
+  else {
+    console.log(x + "is odd");
+  }
+}
