@@ -6,12 +6,13 @@ function gratuity(billAmountArg) {
     return withGratuity;
 
 }
-function totalWithGratuity(billAmountArg);
+function totalWithGratuity(billAmountArg)
 { let newTotal= gratuity(billAmountArg) + (billAmountArg);
-    return NewTotal;
+    return newTotal;
 
 }
-console.log("Your total including gratuity is:" + totalWithGratuity(billAmount);
+console.log("test");
+console.log("Your total including gratuity is: " + totalWithGratuity(billAmount));
 
 
 
