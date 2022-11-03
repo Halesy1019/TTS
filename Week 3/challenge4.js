@@ -11,7 +11,7 @@ function totalWithGratuity(billAmountArg);
     return NewTotal;
 
 }
-console.log("Your total including gratuity is: " + totalWithGratuity(billAmount);
+console.log("Your total including gratuity is:" + totalWithGratuity(billAmount);
 
 
 
