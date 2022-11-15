@@ -4,31 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-    <script src="DOMS.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <!--Unordered to do list and left space at bottom for additional items -->
-
-    <h1>To Do List</h1>
-    <ul>
-        <li>Make the coffee</li>
-        <li>Make the bed</li>
-        <li>Drink the coffee</li>
-        <li>Charge up for the day</li>
-        <li></li>
-        
-      </ul>
+    <!--Adding header and unordered list-->
+    <div id="myDIV" class="header">
+        <h2>Haley's Morning To Do List</h2>
+        <input type="text" id="myInput" placeholder="Submit your ideas here...">
+        <span onclick="newElement()" class="addBtn">Submit</span>
+      </div>
       
-      <!-- Submit Button -->
-<h2>
-    <form action="/action_page.php">
-        <label for="list">New To Do:</label><br>
-        <input type="text" id="list" name="list" value="Add to the list"><br>
-        <input type="submit" value="Submit">
-      </form>
-
-</h2>    
-
+      <ul id="myUL">
+        <li>Wake up and DO NOT press the snooze button</li>
+        <li class="checked">Put on gym clothes</li>
+        <li>Get preworkout drink mixed</li>
+        <li>Start sippin</li>
+        <li>Grab a banana for fuel</li>
+        <li>Set coffee to start brewing in one hour</li>
+      </ul>
+    
 </body>
 </html>
