@@ -10,6 +10,13 @@ function onClick() {
     var li= document.createElement("li");
     var myInput= document.getElementById("myInput");
     li.appendChild(document.createTextNode(myInput.value));
+    //create delete button on ul li
+    const btn = document.createElement("button");
+    btn.innerHTML = "Delete";
+    btn.onClick=function() {
+        console.log("text");
+    }
+    li.appendChild(btn);
     ul.appendChild(li);
 
     // change place holder text back to an empty string of "submit your text here..."
@@ -18,3 +25,5 @@ function onClick() {
     
 
 }
+//Add js to click list item and have it be deleted
+
