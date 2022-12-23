@@ -1,0 +1,21 @@
+{
+    "name":"Sarah",
+    "age": 34,
+    "contactNumbers": [
+        {
+            "type":"Home",
+            "number":"123 345-7890"
+
+        },
+        {
+            "type":"Office",
+            "number":"432 765-0789"
+        },
+        {
+            "title":"CEO",
+            "year established":"2019"
+        }
+    ]
+
+
+}x
